@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Modak&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+body {
+    background-color: #E1DABD;
+}
+
+h1 {
+    font-family: 'Modak';
+    font-size: 50px;
+    font-weight: 400;
+    color: #590004;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #590004;
+    text-align: center;
+}
+
+.new_record_button {
+    background-color: #E1DABD;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.form_details {
+    font-family: 'Zain', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin: 20px;
+}

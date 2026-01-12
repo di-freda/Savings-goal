@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Goals</title>
-    </head>
-    <body>
-        <h1>Set Your Savings Goal</h1>
-        <form action="/index.html" method="POST">
-            <label for="goal">What is this goal for?</label>
-            <br>
-            <input type="text" name="goal" id="goal" required>
-            <br>
-            <br>
-            <label for="amount">Total amount to be saved:</label>
-            <br>
-            <input type="number" name="amount" id="amount" value="£0.00" required>
-            <br>
-            <br>
-            <label for="due_date">When do you want to accomplish this goal?</label>
-            <br>
-            <br>
-            <input type="date" name="due_date" id="due_date" required>
-        </form>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Set Your Savings Goal</h2>
+    <form action="/index.html" class="form_details"> <!-- method="POST" -->
+        <label for="goal">What is this goal for?</label>
+        <br>
+        <input type="text" name="goal" id="goal" required>
+        <br>
+        <br>
+        <label for="amount">Total amount to be saved:</label>
+        <br>
+        <input type="number" name="amount" id="amount" value="£0.00" required>
+        <br>
+        <br>
+        <label for="due_date">When do you want to accomplish this goal?</label>
+        <br>
+        <input type="date" name="due_date" id="due_date" required>
+    </form>
+</body>
+
 </html>
