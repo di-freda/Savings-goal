@@ -2,7 +2,7 @@
 
 A simple yet effective web application to help you track and manage your personal savings goals. Built with HTML and CSS, this application provides an intuitive interface for setting financial targets and monitoring your progress.
 
-## 📋 Table of Contents
+### 📋 Table of Contents
 
 - [About](#about)
 - [Features](#features)
@@ -13,31 +13,26 @@ A simple yet effective web application to help you track and manage your persona
 - [Technologies Used](#technologies-used)
 - [Browser Compatibility](#browser-compatibility)
 - [Contributing](#contributing)
+- [Future Features and Enhancements](#future-features-and-enhancements)
 - [License](#license)
+- [Support](#support)
+- [Author](#author)
 
 ## 📖 About
 
-The Savings Goal Tracker is a lightweight web application designed to help individuals set, track, and achieve their financial savings goals. Whether you're saving for a vacation, a new car, an emergency fund, or any other purpose, this tool makes it easy to visualize your progress and stay motivated.
-
-## ✨ Features
+The Savings Goal Tracker is a web application designed to help individuals set, track, and achieve their financial savings goals. Whether you're saving for a vacation, a new car, an emergency fund, or any other purpose, this tool makes it easy to visualize your progress and stay motivated. This project is still under developement, an I have made a list of the features that will be added overtime in [Future Features and Enhancements](#future-features-and-enhancements). 
+<br></br>
+## ✨ Features (current)
 
 - **Goal Creation**: Easily create new savings goals with a target amount and deadline
-- **Progress Tracking**: Visual progress bars show how close you are to reaching each goal
-- **Goal Management**: Add, update, and remove savings goals as needed
-- **Clean Interface**: Intuitive and user-friendly design for seamless navigation
-- **Responsive Design**: Works smoothly on desktop and tablet devices
-- **Real-time Updates**: Immediately see changes as you add or modify savings amounts
-- **Goal Summary**: View all your goals at a glance with key statistics
-- **Motivational Display**: Percentage completion indicators to keep you motivated
-
-## 📂 Project Structure
+<br></br>
+## 📂 Current Project Structure
 
 ```
 Savings-goal/
 ├── index.html          # Main HTML file with application structure
 ├── style.css           # Styling and layout design
-├── README.md           # Project documentation
-└── [Optional assets folder for images/icons]
+└── README.md           # Project documentation
 ```
 
 ## 🚀 Getting Started
@@ -62,19 +57,19 @@ Savings-goal/
 3. Open the `index.html` file in your web browser:
    - Double-click the `index.html` file, or
    - Right-click and select "Open with" your preferred browser
-
+<br></br>
 ## 📖 Usage Instructions
 
 ### Creating a New Savings Goal
 
-1. Look for the "Add New Goal" button or form on the main page
+1. Look for the "Add New Goal" button on the main page
 2. Enter the following information:
    - **Goal Name**: Give your goal a descriptive name (e.g., "Vacation to Paris")
    - **Target Amount**: Enter the total amount you want to save
    - **Deadline**: Set a target date for achieving your goal
    - **Current Amount** (optional): Enter any amount you've already saved
 
-3. Click "Create Goal" or "Save" to add your goal to the tracker
+3. Click "Create Goal" or "Save" to add your goal to the home screen
 
 ### Tracking Progress
 
@@ -96,26 +91,22 @@ Savings-goal/
 - **Edit**: Click the edit button to modify goal details
 - **Delete**: Remove completed or unwanted goals
 - **Complete**: Mark goals as completed when achieved
+<br></br>
+## 🔧 How Will Work
 
-## 🔧 How It Works
-
-1. **Data Storage**: Goals are stored locally in your browser (using browser storage or in-memory)
+1. **Data Storage**: Goals will be stored locally in your browser (using browser storage or in-memory)
 2. **Calculation**: The application automatically calculates:
    - Percentage of goal completed
    - Remaining amount needed
    - Days/weeks remaining until deadline
 3. **Visual Feedback**: Progress bars and color coding provide quick visual feedback on goal status
-4. **No Server Required**: Everything runs directly in your browser—no internet connection needed after loading
-
+4. **No Server Required**: Everything runs directly in your browser—no internet connection needed after loading, but I will link it to a server in the future
+<br></br>
 ## 💻 Technologies Used
 
 - **HTML5** (63%): Semantic markup for proper document structure
-- **CSS3** (37%): Modern styling including:
-  - Flexbox layout
-  - CSS Grid for responsive design
-  - Transitions and animations for smooth interactions
-  - Media queries for responsive behavior
-
+- **CSS3** (37%): Modern styling
+<br></br>
 ## 🌐 Browser Compatibility
 
 This application works best on:
@@ -124,7 +115,7 @@ This application works best on:
 - ✅ Mozilla Firefox (version 88+)
 - ✅ Apple Safari (version 14+)
 - ✅ Microsoft Edge (version 90+)
-
+<br></br>
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
@@ -138,19 +129,11 @@ Contributions are welcome! Here's how you can help:
 
 Please ensure your code follows the existing style and includes appropriate documentation.
 
-## 📝 License
+---
 
-This project is open source and available under the MIT License. Feel free to use, modify, and distribute as you see fit.
+## 🎯 Future Features or Enhancements:
 
-## 🙋 Support
-
-For questions, suggestions, or issues, please:
-- Open an issue on GitHub
-- Contact the maintainer: di-freda
-
-## 🎯 Future Enhancements
-
-Potential features for future versions:
+Features I want to add as I progress with the development of this project:
 
 - [ ] Category organization for goals
 - [ ] Multi-currency support
@@ -159,11 +142,29 @@ Potential features for future versions:
 - [ ] Mobile app version
 - [ ] Local storage persistence
 - [ ] Goal achievement notifications
-- [ ] Advanced analytics and statistics
 - [ ] Dark mode theme
 - [ ] Goal templates for common savings goals
+- [ ] Visual progress bars with percentages show how close you are to reaching each goal
+- [ ] Add, update, and remove savings goals as needed
+- [ ] Intuitive and user-friendly design for seamless navigation
+- [ ] Immediately see changes as you add or modify savings amounts
+- [ ] View all your goals at a glance with key statistics
+- [ ] Get motivational messages as you pass each quarter mark for the goal
 
 ---
+
+### 📝 License
+
+This project is open source and available under the MIT License. Feel free to use, modify, and distribute as you see fit.
+<br></br>
+### 🙋 Support
+
+For questions, suggestions, or issues, please:
+- Open an issue on GitHub
+- Contact the maintainer: di-freda
+<br></br>
+### Author 🌷
+[di-freda](https://github.com/di-freda)
 
 **Last Updated**: January 13, 2026
 
